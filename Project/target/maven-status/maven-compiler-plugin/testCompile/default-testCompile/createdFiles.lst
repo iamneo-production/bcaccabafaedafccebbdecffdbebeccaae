@@ -1,0 +1,6 @@
+utils/EventHandler.class
+utils/Screenshot.class
+pages/Tricetis_Register.class
+utils/LoggerHandler.class
+pages/Tricentis_Login.class
+utils/Reporter.class

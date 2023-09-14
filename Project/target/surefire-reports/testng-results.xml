@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T07:03:19 UTC" name="Surefire suite" finished-at="2023-09-14T07:03:41 UTC" duration-ms="21932">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T07:03:19 UTC" name="Surefire test" finished-at="2023-09-14T07:03:41 UTC" duration-ms="21932">
+      <class name="runner.Testcase1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:19 UTC" name="beforeMethod" finished-at="2023-09-14T07:03:27 UTC" duration-ms="8623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Register()[pri:1, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:27 UTC" name="Register" finished-at="2023-09-14T07:03:31 UTC" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:31 UTC" name="afterMethod" finished-at="2023-09-14T07:03:31 UTC" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:32 UTC" name="beforeMethod" finished-at="2023-09-14T07:03:34 UTC" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid_Login_TC(java.lang.String,java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:34 UTC" name="Valid_Login_TC" data-provider="testData" finished-at="2023-09-14T07:03:36 UTC" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@demo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_Login_TC -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:36 UTC" name="afterMethod" finished-at="2023-09-14T07:03:36 UTC" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:36 UTC" name="beforeMethod" finished-at="2023-09-14T07:03:39 UTC" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_Vote_003()[pri:3, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:39 UTC" name="TC_Vote_003" finished-at="2023-09-14T07:03:40 UTC" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Vote_003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-09-14T07:03:40 UTC" name="afterMethod" finished-at="2023-09-14T07:03:41 UTC" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- runner.Testcase1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
